@@ -1,0 +1,56 @@
+* {
+  text-decoration: none !important;
+}
+.viewH {
+  min-height: calc(100vh - 100px);
+}
+.bi {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.bi-arrow-left-circle-fill,
+.bi-arrow-right-circle-fill,
+.bi-box2,
+.bi-truck,
+.bi-cash {
+  font-size: 40px;
+  color: #000;
+}
+.bi-chevron-down,
+.bi-chevron-up {
+  color: black;
+  cursor: pointer;
+}
+.pagination {
+  border: 0.5px solid gray;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.pagination__link {
+  margin: 5px;
+}
+.pagination__link--active {
+  background-color: blue;
+  color: white;
+  padding: 5px 20px;
+}
+.pagination__link--disabled {
+  cursor: 'not-allowed';
+  opacity: '0.2';
+  color: gray;
+}
+
+@media screen and (min-width: 375px) {
+  .productBox {
+    height: 420px !important;
+    width: 300px !important;
+  }
+}
+@media screen and (min-width: 280px) {
+  .productBox {
+    height: 320px;
+    width: 230px;
+  }
+}
